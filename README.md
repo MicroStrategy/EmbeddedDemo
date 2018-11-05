@@ -1,5 +1,5 @@
 
-![alt text](https://github.microstrategy.com/AnalyticsSDK/EmbeddedDemo/blob/next/screenShot.png)
+![alt text](https://github.com/MicroStrategy/EmbeddedDemo/blob/master/screenShot.png)
 ## App Name:
 MicroStrategy REST API & Dossier Embedded Demo
 
