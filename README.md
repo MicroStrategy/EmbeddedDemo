@@ -68,5 +68,9 @@ The max number of the documents that the user wants to display on the page. The 
 1. Set `auth.cors.origins=*` in MicroStrategyLibrary/WEB-INF/classes/config/configOverride.properties to enable cross origin for rest server.
 2. - For 11.x and later Library, remove `X-Frame-Options : SAMEORIGIN` from <MicroStrategyLibrary-Installation-Directory>/WEB-INF/web.xml 
    - For 10.x Library, remove the line of `X-Frame-Options=SAMEORIGIN` from <MicroStrategyLibrary-Installation-Directory>/WEB-INF/classes/config/security_headers-index.properties to allow embedding a iframe with CORS
+   
+   OR
+
+You can use Microstrategy REST API `PUT /admin/restServerSettings/security` and Set `"allowAllOrigins": true`
 
 
